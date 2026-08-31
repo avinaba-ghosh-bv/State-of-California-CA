@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#0f2447" stroke="#c99a2e" stroke-width="3"/>
+  <text x="32" y="41" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#d9ae4a" text-anchor="middle">EC</text>
+</svg>
