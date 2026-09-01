@@ -19,12 +19,11 @@ export default function Header() {
       <div className="bg-white border-b-4 border-gold-500">
         <div className="mx-auto max-w-6xl px-4 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <Link to="/" className="flex items-center gap-3">
-            <div
-              className="w-14 h-14 rounded-full bg-navy-900 border-2 border-gold-500 flex items-center justify-center text-gold-400 font-serif-gov font-bold text-lg shrink-0"
-              aria-hidden="true"
-            >
-              EC
-            </div>
+            <img
+              src="/favicon.png"
+              alt="Seal of the State of East Carolina"
+              className="w-14 h-14 shrink-0"
+            />
             <div>
               <div className="text-xs uppercase tracking-wide text-gray-500">State of East Carolina</div>
               <div className="font-serif-gov text-xl sm:text-2xl font-bold text-navy-900 leading-tight">
@@ -45,12 +44,6 @@ export default function Header() {
       </div>
 
       <Navigation />
-
-      <div className="bg-gold-100 border-b border-gov-line">
-        <p className="mx-auto max-w-6xl px-4 py-1 text-[11px] text-gray-600 text-center sm:text-left">
-          Professional Licensing Demonstration — Fictional Agency
-        </p>
-      </div>
     </header>
   )
 }
