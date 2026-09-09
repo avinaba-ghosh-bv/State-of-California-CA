@@ -126,6 +126,16 @@ export default function PharmacistLicense() {
               </tbody>
             </table>
           </div>
+          <p>
+            <a
+              href="/documents/pharmacist-license-application.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="gov-link font-semibold"
+            >
+              Download the Pharmacist License Application (PDF)
+            </a>
+          </p>
         </ContentSection>
 
         <ContentSection title="What You'll Be Asked to Provide" id="application-fields">
