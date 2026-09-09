@@ -6,8 +6,8 @@ export interface Agency {
 
 export const agencies: Agency[] = [
   { name: 'East Carolina Board of Pharmacy', active: true, path: '/' },
-  { name: 'East Carolina Board of Nursing', active: false },
-  { name: 'East Carolina Board of Dental Examiners', active: false },
-  { name: 'East Carolina Tattoo Licensing', active: false },
-  { name: 'East Carolina Elevator Safety Board', active: false },
+  { name: 'East Carolina Board of Nursing', active: false, path: '/agencies/nursing' },
+  { name: 'East Carolina Board of Dental Examiners', active: false, path: '/agencies/dental' },
+  { name: 'East Carolina Tattoo Artist Licensing', active: false, path: '/agencies/tattoo' },
+  { name: 'East Carolina Explosives Licensing', active: false, path: '/agencies/explosives' },
 ]

@@ -25,6 +25,7 @@ import Enforcement from './pages/Enforcement'
 import DisciplinaryActions from './pages/DisciplinaryActions'
 import Contact from './pages/Contact'
 import SearchResults from './pages/SearchResults'
+import AgencyLanding from './pages/AgencyLanding'
 import NotFound from './pages/NotFound'
 
 function App() {
@@ -62,6 +63,8 @@ function App() {
 
         <Route path="/contact" element={<Contact />} />
         <Route path="/search" element={<SearchResults />} />
+
+        <Route path="/agencies/:slug" element={<AgencyLanding />} />
 
         <Route path="*" element={<NotFound />} />
       </Route>
